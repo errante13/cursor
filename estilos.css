@@ -1,0 +1,28 @@
+*{
+    margin: auto 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.envoltura{
+    margin: auto;
+    padding: 20px;
+    display: inline-block;
+    width: 600px;
+    background-color: black;
+}
+h1{
+    margin: auto;
+    display: block;
+    text-align: center;
+    color: blanchedalmond;
+    padding-bottom: 20px;
+    
+}
+img{
+    margin: auto;
+    display: block;
+    width: 500px;
+    text-align: center;
+
+}

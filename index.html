@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="estilos.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+
+        $(document).ready(function(){
+
+          $('img').hover(function(){
+                var src1 = $(this).attr("src");
+                console.log(src1);
+                $(this).attr("src",$(this).attr("alt-src"));
+                $(this).attr("alt-src",src1);
+            });
+
+        });    
+    </script>
+    <title>cursor</title>
+</head>
+<body>
+ <div class="envoltura">
+
+    <h1>cursor</h1>
+
+        <img src="img/cat0.png" alt-src="img/ninja0.png" alt="">
+        <img src="img/cat1.png" alt-src="img/ninja1.png" alt="">
+        <img src="img/cat2.png" alt-src="img/ninja2.png" alt="">
+        <img src="img/cat3.png" alt-src="img/ninja3.png" alt="">
+        <img src="img/cat4.png" alt-src="img/ninja4.png" alt="">
+        <img src="img/cat5.png" alt-src="img/ninja5.png" alt="">
+   
+ </div>    
+</body>
+</html>
